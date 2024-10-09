@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  background-color: #1d4ed8;
+  background-color: #64814f;
   color: #fff;
   height: 70px;
   justify-content: space-between;
@@ -14,6 +14,7 @@
   list-style: none;
   display: flex;
   margin-right: 1rem;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .links li {

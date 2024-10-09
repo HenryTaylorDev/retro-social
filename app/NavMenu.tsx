@@ -6,9 +6,16 @@ import { SignInButton } from "./components/buttons";
 export default function NavMenu() {
   return (
     <nav className={styles.nav}>
-      <Link href="/">
-        <Image src="/logo.svg" alt="NextSpace Logo" width={216} height={30} />
-      </Link>
+      <div style={{ padding: "0.5em" }}>
+        <Link href="/">
+          <Image
+            src="/logo-2.png"
+            alt="NextSpace Logo"
+            width={60}
+            height={60}
+          />
+        </Link>
+      </div>
       <ul className={styles.links}>
         <li>
           <Link href="/about">About</Link>
